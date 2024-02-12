@@ -1,13 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Odin Project | Etch-A-Sketch</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .center {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+}
+    </style>
+  </head>
+  <body>
+    <h1 style="text-align: center; color: #9290C3; background-color: #070F2B; width: 400px; margin: auto; margin-bottom: 30px;">Etch-A-Sketch</h1>
+    <div class="center">
+
+    <button id="reset" style="color:#070F2B;background-color: #9290C3; font: bolder;font-family: sans-serif;border: none; cursor: pointer;">Reset Canvas</button>
+    </div>
+    <section
+      style="display: flex; justify-content: center; align-items: center"
+    >
+      <section
+        id="container"
+        style="border: 3px #070F2B solid; border-radius: 5%; padding: 10px;"
+      ></section>
+    </section>
+
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
